@@ -19,6 +19,12 @@
   <link rel="stylesheet" type="text/css"  href="./css/style.css">
   <link rel="icon" type="image/png" href="./img/favicon.png">
 
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
   <div class="wrapper_page">
@@ -222,8 +228,18 @@
     <img class="circle_bottom_right img-responsive" src="./img/bg/circle_yellow_min.png" >
   </div><!-- /wrapper_page -->
 
+
   <a id="totop" href="#totop"><i class="demo-icon icon-angle-up"></i></a>
 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Javascripts ================================================== -->
+  <script src="./js/main.js"></script>
+  <script src="./js/jquery.social.sharing.js"></script>
   <script>
     (function(){
       var a = document.querySelector('#aside1'), b = null, P = 0;  // если ноль заменить на число, то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом
